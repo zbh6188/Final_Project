@@ -1,5 +1,5 @@
 # EEP 520 Final_Project Rainbow Dungeon Game
-Baohua Zhu 1428830
+### Baohua Zhu 
 
 # Overview
 This project is a maze game created based on Enviro, the multi-agent, multi-user, multi-everything simulator. The goal of this game is for the player to operate his/her robot, to dodge all the dungeon guards in the dungeon, and to find the golden treasure at the deepest center of the rainbow dungeon. 
