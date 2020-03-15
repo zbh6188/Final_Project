@@ -1,0 +1,15 @@
+{
+    "name": "Player",
+    "type": "dynamic",
+    "description": "The Player, you can control it to find the golden treasure in the final floor of the dungeon",
+    "shape": "omni",
+    "radius": 10,
+    "friction": {
+      "collision": 0,
+      "linear": 30,
+      "rotational": 300
+    },
+    "sensors": [],
+    "mass": 1,    
+    "controller": "lib/player.so"
+}

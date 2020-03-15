@@ -1,0 +1,25 @@
+{
+    "name": "Boss",
+    "type": "dynamic",
+    "description": "The Boss, protecting the golden treasure in the final floor of the dungeon, very dangerous",
+    "shape": [
+        { "x": -15, "y": 15 },
+        { "x": 15, "y": 15 },
+        { "x": 15, "y": -15 },
+        { "x": -15, "y": -15 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 0,
+      "rotational": 0
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": 0 },
+        "direction": 0
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/boss.so"
+}

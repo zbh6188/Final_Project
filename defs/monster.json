@@ -1,0 +1,25 @@
+{
+    "name": "Monster",
+    "type": "dynamic",
+    "description": "A Monster, wandering around in the third floor of the dungeon, with very large body, trying to eliminate the player",
+    "shape": [
+        { "x": -15, "y": 15 },
+        { "x": 15, "y": 15 },
+        { "x": 15, "y": -15 },
+        { "x": -15, "y": -15 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 15, "y": 0 },
+        "direction": 0
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/monster.so"
+}

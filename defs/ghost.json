@@ -1,0 +1,25 @@
+{
+    "name": "Ghost",
+    "type": "dynamic",
+    "description": "A Ghost, wandering around in the second floor of the dungeon, with decent speed, trying to eliminate the player",
+    "shape": [
+      { "x": -11, "y": 11 },
+      { "x": 11, "y": 11 },
+      { "x": 11, "y": -11 },
+      { "x": -11, "y": -11 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 40,
+      "rotational": 600
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": 0 },
+        "direction": 0
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/ghost.so"
+}

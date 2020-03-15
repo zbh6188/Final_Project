@@ -1,0 +1,25 @@
+{
+    "name": "Demon",
+    "type": "dynamic",
+    "description": "A demon, wandering around in the fourth floor of the dungeon with extremely fast speed, very dangerous",
+    "shape": [
+        { "x": -12, "y": 12 },
+        { "x": 12, "y": 12 },
+        { "x": 12, "y": -12 },
+        { "x": -12, "y": -12 }
+    ],
+    "friction": {
+      "collision": 0,
+      "linear": 0,
+      "rotational": 0
+    },
+    "sensors": [
+      { 
+        "type": "range",
+        "location": { "x": 10, "y": 0 },
+        "direction": 0
+      }
+    ],
+    "mass": 1,    
+    "controller": "lib/demon.so"
+}

@@ -1,0 +1,345 @@
+{
+
+    "name": "The Rainbow Dungeon",
+    "ip": "0.0.0.0",
+    "port": 8765,
+
+    "buttons": [],
+
+    "agents": [  
+        {
+            "definition": "defs/rover.json",
+            "style": { "fill": "blue", "stroke": "#aaa"},
+            "position": {
+                "x": -380, 
+                "y": -220, 
+                "theta": 0
+            }
+        },
+        
+        {
+            "definition": "defs/ghost.json",
+            "style": { "fill": "red", "stroke": "#aaa"},
+            "position": {
+                "x": -320, 
+                "y": 170, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/monster.json",
+            "style": { "fill": "green", "stroke": "#aaa"},
+            "position": {
+                "x": -270, 
+                "y": -120, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/demon.json",
+            "style": { "fill": "purple", "stroke": "#aaa"},
+            "position": {
+                "x": -220, 
+                "y": 70, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/boss.json",
+            "style": { "fill": "black", "stroke": "#aaa"},
+            "position": {
+                "x": -170, 
+                "y": -20, 
+                "theta": 0
+            }
+        },
+
+        {
+            "definition": "defs/player.json",
+            "style": { "fill": "gold", "stroke": "#aaa"},
+            "position": {
+                "x": 380, 
+                "y": 0, 
+                "theta": 0
+            }
+        }
+    ],
+
+    "statics": [
+
+        {
+            "style": { "fill": "gold", "stroke": "none" },
+            "shape": [
+                { "x": 100, "y": -50 },
+                { "x": 100, "y": -12 },
+                { "x": 90,  "y": -12 },
+                { "x": 90,  "y": -50 }
+            ]
+        },
+        {
+            "style": { "fill": "gold", "stroke": "none" },
+            "shape": [
+                { "x": 100, "y": 12 },
+                { "x": 100, "y": 50 },
+                { "x": 90,  "y": 50 },
+                { "x": 90,  "y": 12 }
+            ]
+        },
+        {
+            "style": { "fill": "gold", "stroke": "none" },
+            "shape": [
+                { "x": 190, "y": -50 },
+                { "x": 190, "y": 50 },
+                { "x": 180, "y": 50 },
+                { "x": 180, "y": -50 }
+            ]
+        },
+        {
+            "style": { "fill": "gold", "stroke": "none" },
+            "shape": [
+                { "x": 100, "y": 40 },
+                { "x": 180, "y": 40 },
+                { "x": 180, "y": 30 },
+                { "x": 100, "y": 30 }
+            ]
+        },
+        {
+            "style": { "fill": "gold", "stroke": "none" },
+            "shape": [
+                { "x": 100, "y": -40 },
+                { "x": 180, "y": -40 },
+                { "x": 180, "y": -30 },
+                { "x": 100, "y": -30 }
+            ]
+        },
+        
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -200, "y": -50 },
+                { "x": -200,  "y": 50 },
+                { "x": -190,  "y": 50 },
+                { "x": -190, "y": -50 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": 200, "y": -50 },
+                { "x": 200,  "y": 50 },
+                { "x": 190,  "y": 50 },
+                { "x": 190, "y": -50 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -200, "y": 50 },
+                { "x": 200,  "y": 50 },
+                { "x": 200,  "y": 40 },
+                { "x": -200, "y": 40 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -200, "y": -50 },
+                { "x": -100,  "y": -50 },
+                { "x": -100,  "y": -40 },
+                { "x": -200, "y": -40 }
+            ]
+        },
+        {
+            "style": { "fill": "black", "stroke": "none" },
+            "shape": [
+                { "x": -76, "y": -50 },
+                { "x": 200,  "y": -50 },
+                { "x": 200,  "y": -40 },
+                { "x": -76, "y": -40 }
+            ]
+        },
+
+        {
+            "style": { "fill": "purple", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": -100 },
+                { "x": -250, "y": -12 },
+                { "x": -240, "y": -12 },
+                { "x": -240, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "purple", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": 12 },
+                { "x": -250, "y": 100 },
+                { "x": -240, "y": 100 },
+                { "x": -240, "y": 12 }
+            ]
+        },
+        {
+            "style": { "fill": "purple", "stroke": "none" },
+            "shape": [
+                { "x": 250, "y": -100 },
+                { "x": 250,  "y": 100 },
+                { "x": 240,  "y": 100 },
+                { "x": 240, "y": -100 }
+            ]
+        },
+        {
+            "style": { "fill": "purple", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": 100 },
+                { "x": 250,  "y": 100 },
+                { "x": 250,  "y": 90 },
+                { "x": -250, "y": 90 }
+            ]
+        },
+        {
+            "style": { "fill": "purple", "stroke": "none" },
+            "shape": [
+                { "x": -250, "y": -100 },
+                { "x": 250,  "y": -100 },
+                { "x": 250,  "y": -90 },
+                { "x": -250, "y": -90 }
+            ]
+        },
+        
+
+        {
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "shape": [
+                { "x": -300, "y": -150 },
+                { "x": -300,  "y": 150 },
+                { "x": -290,  "y": 150 },
+                { "x": -290, "y": -150 }
+            ]
+        },
+        {
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "shape": [
+                { "x": 300, "y": -150 },
+                { "x": 300,  "y": -22 },
+                { "x": 290,  "y": -22 },
+                { "x": 290, "y": -150 }
+            ]
+        },
+        {
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "shape": [
+                { "x": 300, "y": 2 },
+                { "x": 300, "y": 150 },
+                { "x": 290, "y": 150 },
+                { "x": 290, "y": 2 }
+            ]
+        },
+        {
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "shape": [
+                { "x": -300, "y": 150 },
+                { "x": 300,  "y": 150 },
+                { "x": 300,  "y": 140 },
+                { "x": -300, "y": 140 }
+            ]
+        },
+        {
+            "style": { "fill": "lightgreen", "stroke": "none" },
+            "shape": [
+                { "x": -300, "y": -150 },
+                { "x": 300,  "y": -150 },
+                { "x": 300,  "y": -140 },
+                { "x": -300, "y": -140 }
+            ]
+        },
+        
+
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": -350, "y": -12 },
+                { "x": -340, "y": -12 },
+                { "x": -340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 12 },
+                { "x": -350, "y": 200 },
+                { "x": -340, "y": 200 },
+                { "x": -340, "y": 12 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": 350, "y": -200 },
+                { "x": 350,  "y": 200 },
+                { "x": 340,  "y": 200 },
+                { "x": 340, "y": -200 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": 200 },
+                { "x": 350,  "y": 200 },
+                { "x": 350,  "y": 190 },
+                { "x": -350, "y": 190 }
+            ]
+        },
+        {
+            "style": { "fill": "red", "stroke": "none" },
+            "shape": [
+                { "x": -350, "y": -200 },
+                { "x": 350,  "y": -200 },
+                { "x": 350,  "y": -190 },
+                { "x": -350, "y": -190 }
+            ]
+        },
+
+
+        {
+            "style": { "fill": "lightblue", "stroke": "none" },
+            "shape": [
+                { "x": -400, "y": -250 },
+                { "x": -400,  "y": 250 },
+                { "x": -390,  "y": 250 },
+                { "x": -390, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "lightblue", "stroke": "none" },
+            "shape": [
+                { "x": 400, "y": -250 },
+                { "x": 400,  "y": 250 },
+                { "x": 390,  "y": 250 },
+                { "x": 390, "y": -250 }
+            ]
+        },
+        {
+            "style": { "fill": "lightblue", "stroke": "none" },
+            "shape": [
+                { "x": -400, "y": 250 },
+                { "x": 400,  "y": 250 },
+                { "x": 400,  "y": 240 },
+                { "x": -400, "y": 240 }
+            ]
+        },
+        {
+            "style": { "fill": "lightblue", "stroke": "none" },
+            "shape": [
+                { "x": -400, "y": -250 },
+                { "x": 400,  "y": -250 },
+                { "x": 400,  "y": -240 },
+                { "x": -400, "y": -240 }
+            ]
+        }
+
+    ]
+
+}
